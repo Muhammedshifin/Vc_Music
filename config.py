@@ -34,7 +34,7 @@ class Config:
     ADMIN = os.environ.get("ADMINS", '')
     SUDO = [int(admin) for admin in (ADMIN).split()] # Exclusive for heroku vars configuration.
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
-    API_ID = int(os.environ.get("API_ID", "18302370"))
+    API_ID = int(os.environ.get("API_ID", "18302370")
     API_HASH = os.environ.get("API_HASH", "03c2cced4dea9b1e96dce87558dd2381")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5956028445:AAH53ZgFYJTH4XAJ5p17GnC_hELmCij24gk")     
     SESSION = os.environ.get("SESSION_STRING", "BQCGSbtLNYovZoTcyDLNT6d1ObIzMS-06COp7rLOydum_4lHVh1s60NDgE0MYp7nMFWVTSpf6VQjc6-DpkF_iC90KCmHR2ZUJ8hoGMJUF_IbiJpqW8n1LugraazPaXdLB8pfJEAmRnpZBfRfhF1GTtJLmX2--AvWpPZ0Od1Cgr24jLGpI6WDCRLG-aXIMD1IKzD_p9cQmgYbKd9jG1mljlyAxS00LuWofVv_qE00lojEfLy71hnyemBQRwjiOnZRvRk9X7uM31uMwsQFBlQlfI4hONf9ubQW1rTaPEzN-0vH9uRPu-g1jAL6VifxYFj6ZyOq31Pcxhyo-6_u4BXa47xNAAAAAWGbn2gA")
